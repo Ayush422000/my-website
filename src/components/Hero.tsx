@@ -58,7 +58,7 @@ export const Hero = () => {
                 </RoughHighlight>
                 optimizing existing systems and creating digital experiences
                 that feel intuitive and meaningful. I value{" "}
-                <RoughHighlight color="peach" type="rectangle" delay={1800}>
+                <RoughHighlight color="purple" type="rectangle" delay={1800}>
                   clarity
                 </RoughHighlight>
                 ,{" "}
@@ -66,10 +66,9 @@ export const Hero = () => {
                   teamwork
                 </RoughHighlight>{" "}
                 and building software that remains,
-                <RoughHighlight color="steel" type="rectangle" delay={2400}>
-                  reliable
-                </RoughHighlight>{" "}
-                over time.
+                {/* <RoughHighlight color="steel" type="rectangle" delay={2400}> */}
+                reliable over time.
+                {/* </RoughHighlight>{" "} */}
               </p>
 
               <p>

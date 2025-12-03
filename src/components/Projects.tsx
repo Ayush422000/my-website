@@ -29,6 +29,33 @@ const projects = [
     // live: "https://github.com/Ayush422000/ai-email-reply",
   },
   {
+    title: "Chat-Room",
+    image: "/chat-room.png",
+    description:
+      "Built a chat system enabling instant multi-user communication with zero-lag message delivery and automatic connection management.",
+    highlights: [
+      "Implemented message broker architecture with topic-based pub-sub pattern for scalable real-time broadcasting across chat rooms",
+      "Designed responsive UI with Bootstrap featuring live message rendering, connection state indicators, and sender identification",
+      "Created dynamic UI using Thymeleaf, Bootstrap and JavaScript ES6 with real-time message rendering and connection state management",
+    ],
+    tech: [
+      "Java",
+      "Spring Boot",
+      "WebSocket",
+      "STOMP",
+      "Thymeleaf",
+      "JavaScript ES6",
+      "Bootstrap",
+      "SockJS",
+      "Maven",
+    ],
+    icon: BookOpen,
+    color: "green" as const,
+
+    github: "https://github.com/Ayush422000/simple-chat-room",
+    // live: "",
+  },
+  {
     title: "Book Finder",
     description:
       "Built a book finder web app with React 18 and Open Library API, supporting multi-type search (title, author, subject, publisher).",
@@ -146,6 +173,11 @@ export const Projects = () => {
             </article>
           ))}
         </div>
+        <img
+          src={projects.image}
+          alt={projects.title}
+          className="w-full mt-6 rounded-lg object-cover shadow-sm"
+        />
       </div>
     </section>
   );
