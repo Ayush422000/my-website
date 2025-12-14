@@ -78,6 +78,34 @@ const projects = [
     github: "https://github.com/Ayush422000/book-finder",
     live: "https://book-finder-puce-three.vercel.app/",
   },
+  {
+    title: "Credit Risk Prediction System",
+    description:
+      "Built an end-to-end credit risk modeling project using the German Credit Risk dataset, covering data analysis, feature engineering, machine learning and deployment with a Streamlit web app.",
+    highlights: [
+      "Performed extensive EDA with statistical analysis, visualizations, and correlation studies",
+      "Handled missing values, class imbalance, and encoded categorical features for modeling",
+      "Trained and tuned multiple ML models (Decision Tree, Random Forest, Extra Trees, XGBoost)",
+      "Selected Extra Trees as the best-performing model and deployed it using Streamlit",
+      "Built an interactive web app for real-time credit risk prediction (Good vs Bad)",
+    ],
+    tech: [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Seaborn",
+      "Scikit-learn",
+      "XGBoost",
+      "Streamlit",
+      "Joblib",
+    ],
+    icon: BookOpen,
+    color: "orange" as const,
+
+    github: "https://github.com/Ayush422000/credit-risk-prediction",
+    live: "https://credit-risk-prediction-qll9wnbh9nidpdp9zhw7pm.streamlit.app/#credit-risk-prediction-app",
+  },
 ];
 
 export const Projects = () => {
